@@ -14,6 +14,7 @@
 		BFC868B3218B733900DA1443 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFC868B1218B733900DA1443 /* LaunchScreen.storyboard */; };
 		BFC868BE218B7D1300DA1443 /* ArtView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC868BD218B7D1300DA1443 /* ArtView.swift */; };
 		BFE05B24219371F500E5C170 /* ArtCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE05B23219371F500E5C170 /* ArtCollectionViewController.swift */; };
+		BFE05B262193819B00E5C170 /* ArtCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE05B252193819B00E5C170 /* ArtCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		BFC868B4218B733900DA1443 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BFC868BD218B7D1300DA1443 /* ArtView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtView.swift; sourceTree = "<group>"; };
 		BFE05B23219371F500E5C170 /* ArtCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtCollectionViewController.swift; sourceTree = "<group>"; };
+		BFE05B252193819B00E5C170 /* ArtCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 				BFC868AC218B733200DA1443 /* Main.storyboard */,
 				BFC868B1218B733900DA1443 /* LaunchScreen.storyboard */,
 				BFC868BD218B7D1300DA1443 /* ArtView.swift */,
+				BFE05B252193819B00E5C170 /* ArtCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -168,6 +171,7 @@
 				BFC868AB218B733200DA1443 /* ArtProjectViewController.swift in Sources */,
 				BFC868BE218B7D1300DA1443 /* ArtView.swift in Sources */,
 				BFE05B24219371F500E5C170 /* ArtCollectionViewController.swift in Sources */,
+				BFE05B262193819B00E5C170 /* ArtCell.swift in Sources */,
 				BFC868A9218B733200DA1443 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
