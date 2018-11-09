@@ -29,7 +29,8 @@ public class ArtCollectionViewController: UICollectionViewController
             UIImage(named: "Luis Swift Haiku"),
             UIImage(named: "octocat"),
             UIImage(named: "screenshotofstickfigure"),
-            UIImage(named: "spiderman")
+            UIImage(named: "spiderman"),
+            UIImage(named: "Robot image")
         ]
     }()
     
@@ -43,7 +44,8 @@ public class ArtCollectionViewController: UICollectionViewController
             "Haiku for Swift",
             "Octocat",
             "Art made from computer",
-            "The legend27"
+            "The legend27",
+            "Robot Learning"
         ]
     }()
 
