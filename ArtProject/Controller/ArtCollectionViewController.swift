@@ -53,21 +53,18 @@ public class ArtCollectionViewController: UICollectionViewController
     {
         super.viewDidLoad()
 
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Register cell classes
-        self.collectionView!.register(UICollectionViewCell.self, forCellWithReuseIdentifier: reuseIdentifier)
+   
+        //self.collectionView!.register(UICollectionViewCell.self, forCellWithReuseIdentifier: reuseIdentifier)
 
         // Do any additional setup after loading the view.
     }
-
+    /*
    public override func didReceiveMemoryWarning() -> Void
     {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    */
     /*
     // MARK: - Navigation
 
@@ -125,15 +122,5 @@ public class ArtCollectionViewController: UICollectionViewController
         return sectionInsets.left
     }
     
-    /*
-    public func collectionView(_ collectionView: UICollectionView, canPerformAction action: Selector, forItemAt indexPath: IndexPath, withSender sender: Any?) -> Bool
-    {
-        return false
-    }
 
-    public func collectionView(_ collectionView: UICollectionView, performAction action: Selector, forItemAt indexPath: IndexPath, withSender sender: Any?)
-    {
-    
-    }
-    */
 }

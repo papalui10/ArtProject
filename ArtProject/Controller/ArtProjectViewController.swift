@@ -8,9 +8,19 @@
 
 import UIKit
 
-public class ViewController: UIViewController
+func greet(person: String) -> String
 {
+    let greeting = "Hello, " + person + "!"
+    return greeting
 
+    print(greet(person: "Josh"))
+}
+
+public class ArtProjectViewController: UIViewController
+{
+   
+    @IBOutlet weak var ChangeScreen: UIButton!
+    
     public override func viewDidLoad() -> Void
     {
         super.viewDidLoad()
